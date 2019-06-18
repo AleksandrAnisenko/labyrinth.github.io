@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    margin: 50px auto;
+    border-collapse: collapse;
+    background: url('https://i.pinimg.com/236x/16/e6/57/16e657fb80e7f08e9106343521d6f815--stone-flooring-vinyl-flooring.jpg');
+}
+
+tr, td{
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.wall{
+    background: url('http://superwalrusland.com/ohr/issue26/pa/stone2_b.jpg');
+    background-size: 50px 50px;
+}
+
+.left, .right, .up, .down{
+    background: url('https://gamedev.ru/files/images/126498_1497736552_2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+.left{transform: rotate(-90deg);}
+.right{transform: rotate(90deg);}
+.up{transform: rotate(0deg);}
+.down{transform: rotate(180deg);}
